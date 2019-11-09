@@ -11,7 +11,7 @@ class Anagram
   def match(array)
     array.each do |words|
       if @word.split == words.split
-      
+
       binding.pry
     end
 
