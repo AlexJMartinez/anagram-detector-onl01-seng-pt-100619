@@ -13,7 +13,7 @@ class Anagram
       if @word.split("").sort != words.split("").sort
         return []
       elsif @word.split("").sort == words.split("").sort
-        return words.to_a
+        return words.split("")
       end
       binding.pry
     end
