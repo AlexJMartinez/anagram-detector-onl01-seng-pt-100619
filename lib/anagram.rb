@@ -12,7 +12,7 @@ class Anagram
     array.each do |words|
       if @word == words
       end
-      binding.pry
+      #binding.pry
     end
   end
 end
