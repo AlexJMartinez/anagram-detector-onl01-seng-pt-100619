@@ -13,8 +13,6 @@ class Anagram
       if @word == words
       binding.pry
     end
-
-
   end
 
 end
