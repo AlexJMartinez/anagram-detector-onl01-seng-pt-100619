@@ -11,6 +11,7 @@ class Anagram
   def match(array)
     array.each do |words|
       if @word == words
+      end
       binding.pry
     end
   end
