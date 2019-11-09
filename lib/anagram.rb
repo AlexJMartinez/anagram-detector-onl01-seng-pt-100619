@@ -12,6 +12,8 @@ class Anagram
     array.each do |words|
       if @word.split("").sort != words.split("").sort
         return []
+      elsif @word.split("").sort == words.split("").sort
+        return words.to_a
       end
       #binding.pry
     end
