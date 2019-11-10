@@ -17,7 +17,6 @@ class Anagram
         all_words << words
 
       end
-
     end
     all_words
   end
