@@ -13,9 +13,9 @@ class Anagram
       if @word.split("").sort != words.split("").sort
         empty_array = []
       elsif @word.split("").sort == words.split("").sort
-        return words.split(" ")      
+        return words.split(" ")
       end
-binding.pry
+#binding.pry
     end
   end
 end
