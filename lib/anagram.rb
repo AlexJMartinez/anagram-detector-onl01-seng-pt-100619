@@ -18,7 +18,7 @@ class Anagram
         return words
         binding.pry
       end
-      
+
     end
   end
 end
