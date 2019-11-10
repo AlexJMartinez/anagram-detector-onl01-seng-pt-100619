@@ -10,14 +10,15 @@ class Anagram
 
   def match(array)
     #return array.select { |word| word.split("").sort == @word.split("").sort }
-
+    all_words = []
     array.each do |words|
       if @word.split("").sort != words.split("").sort
       elsif @word.split("").sort == words.split("").sort
-        return [words]
+        all_words << words
 
       end
 #binding.pry
     end
+    all_words
   end
 end
