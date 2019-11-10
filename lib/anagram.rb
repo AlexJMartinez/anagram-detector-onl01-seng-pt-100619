@@ -12,7 +12,9 @@ class Anagram
     array.each do |words|
       if @word.split("").sort != words.split("").sort
         return []
-      elsif 
+      elsif @word.split("").sort != words.split("").sort
+        return words
+
       end
 #binding.pry
     end
